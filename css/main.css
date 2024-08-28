@@ -1196,7 +1196,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #16fede;
+  background: #c8ff5c;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2318,14 +2318,14 @@ embed {
   white-space: nowrap;
 }
 .post-meta {
-    position: relative;
-  }
-  
-  .post-meta .post-meta-time {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #999;  /* 你可以根據需要調整顏色 */
-    font-size: 14px;  /* 根據需要調整字體大小 */
-  }
-  
+  position: relative !important;
+}
+
+.post-meta .post-meta-time {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  color: #999 !important;
+  font-size: 14px !important;
+}
+
