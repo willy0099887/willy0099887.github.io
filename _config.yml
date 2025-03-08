@@ -1,0 +1,80 @@
+title: 陳宇亨                      # 網站標題
+subtitle: 成大南工                        # 副標題（可選）
+description: 個人履歷                    # 描述（可選）
+keywords: ''                        # 關鍵字（可選）
+author: willy0099887                    # 作者名稱
+language: zh-TW                        # 語言（英文）
+timezone: Asia/Taipei               # 時區
+
+
+url: https://willy0099887.github.io # 網站 URL
+permalink: ':year/:month/:day/:title/' # 文章的永久鏈接格式
+permalink_defaults: null            # 預設永久鏈接格式（通常設為 null）
+pretty_urls:                        # URL 格式選項
+  trailing_index: true               # 是否在 URL 結尾加上 /index.html
+  trailing_html: true                # 是否在 URL 結尾加上 .html
+
+
+source_dir: source                  # 來源目錄
+public_dir: public                  # 公開目錄
+tag_dir: tags                        # 標籤目錄
+archive_dir: archives                # 歷史記錄目錄
+category_dir: categories             # 類別目錄
+code_dir: downloads/code             # 下載的代碼目錄
+i18n_dir: ':lang'                   # 國際化目錄
+
+
+skip_render: null                   # 是否跳過渲染（通常設為 null）
+new_post_name: ':title.md'          # 新文章的檔案名稱格式
+default_layout: post                # 預設佈局
+titlecase: false                    # 是否將標題轉為標題式大小寫
+external_link:                      # 外部鏈接設定
+  enable: true                      # 是否啟用外部鏈接
+  field: site                       # 外部鏈接欄位
+  exclude: ''                       # 排除的外部鏈接（可選）
+
+
+filename_case: 0                    # 檔案名大小寫（0 表示不改變）
+render_drafts: false                # 是否渲染草稿文章
+post_asset_folder: false            # 是否為文章創建資源文件夾
+relative_link: false                # 是否使用相對鏈接
+future: true                        # 是否包含未來的文章
+
+
+syntax_highlighter: highlight.js    # 語法高亮插件
+highlight:                          # 語法高亮設定
+  line_number: true                 # 是否顯示行號
+  auto_detect: false                # 是否自動偵測語言
+  tab_replace: ''                   # 替換縮排字符（可選）
+  wrap: true                        # 是否自動換行
+  hljs: false                       # 是否使用 highlight.js（false 表示不用）
+prismjs:                            # PrismJS 語法高亮設定
+  preprocess: true                  # 是否預處理
+  line_number: true                 # 是否顯示行號
+  tab_replace: ''                   # 替換縮排字符（可選）
+
+
+index_generator:                    # 索引生成設定
+  path: ''                          # 索引頁面路徑（可選）
+  per_page: 10                      # 每頁顯示的文章數量
+  order_by: '-date'                 # 排序方式（按日期倒序）
+default_category: uncategorized     # 預設類別
+category_map: null                  # 類別映射（可選）
+tag_map: null                       # 標籤映射（可選）
+meta_generator: true                # 是否生成 meta 標籤
+
+
+per_page: 10                        # 每頁顯示的文章數量
+pagination_dir: page                # 分頁目錄
+include: []                         # 包含的文件/目錄（可選）
+exclude: []                         # 排除的文件/目錄（可選）
+ignore: null                        # 忽略的文件/目錄（可選）
+
+
+theme: next                         # 主題
+
+
+deploy:                             # 部署設定
+  type: git                         # 部署類型（使用 Git）
+  repo: https://github.com/willy0099887/willy0099887.github.io.git # Git 倉庫地址
+  branch: master                     # Git 分支
